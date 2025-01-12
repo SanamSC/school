@@ -1,4 +1,4 @@
-"""
+
 #1 - calculate roots:
 A = int(input("enter a value for A"))
 B = int(input("enter a value for B"))
@@ -24,12 +24,12 @@ else:
 
 #3 - print all num 1-50
 num = 50
-for i in range(50):
+for i in range(num+1):
     if i%2 ==0:
         print(i)
 
 #4 - find sum of series 1+2+3...N, n is input
-N= int(input("enter a valur for N"))
+N= int(input("enter a value for N"))
 total = 0
 for a in range(1, N+1):
     total +=a
@@ -45,12 +45,12 @@ while numba != -1:
     numba = int(input("enter a number"))
     if numba == -1:
         average = sum/count
-print(average)
-print(sum)
-"""
+print("average of all inputed numbers is", average)
+print("total of all inputed numbers is", sum)
+
 #6 - find factorial of N, n is inputed
 N2 = int(input("enter a number"))
 total = 1
 for a in range(1, N2+1):
     total *=a
-print("factorial of N2 is", total)
+print("factorial of", N2, "is", total)
