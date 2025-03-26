@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name">
+            <br>
+            <label for="Age">Age:</label>
+            <input type="number" id="Age">
+            <br>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email">
+            <br>
+            <label for="Pass">Password:</label>
+            <input type="password" id="Pass">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Emotional State</legend>
+            <b>Please check all the emotions that apply to you:</b><br>
+            <input type="checkbox" id="angry"> 
+            <label for="angry">Angry</label>
+            <br>
+            <input type="checkbox" id="sad"> 
+            <label for="sad">Sad</label>
+            <br>
+            <input type="checkbox" id="happy">
+            <label for="happy">Happy</label>
+            <br>
+            <input type="checkbox" id="ambivalent">
+            <label for="ambivalent">Ambivalent</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Satisfaction</legend>
+            <b>How satisfied were you with the facilities?</b><br>
+            <input type="radio" name="satisfaction" id="very_satisfied"> 
+            <label for="very_satisfied">Very satisfied</label>
+            <br>
+            <input type="radio" name="satisfaction" id="satisfied"> 
+            <label for="satisfied">Satisfied</label>
+            <br>
+            <input type="radio" name="satisfaction" id="didnt_care"> 
+            <label for="didnt_care">Didn't care</label>
+            <br>
+            <input type="radio" name="satisfaction" id="dissatisfied"> 
+            <label for="dissatisfied">Dissatisfied</label>
+            <br>
+            <input type="radio" name="satisfaction" id="very_dissatisfied"> 
+            <label for="very_dissatisfied">Very dissatisfied</label>
+            <br><br>
+            <label for="comments">Further comments:</label><br>
+            <textarea id="comments"></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Location of Theme Park</legend>
+            <label for="location">Location visited:</label>
+            <select id="location">
+                <option>Select location</option>
+                <option>Park A</option>
+                <option>Park B</option>
+                <option>Park C</option>
+            </select>
+        </fieldset>
+        
+        <br>
+        <button type="submit">Submit</button>
+    </body>
+</html>
